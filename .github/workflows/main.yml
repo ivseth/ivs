@@ -24,4 +24,4 @@ jobs:
           echo "$(date)" >> activity.log
           git add .
           git commit -m "Авто-коммит: $(date)" || echo "Нет изменений"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ivs/GITHUB.git
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ivseth/ivs.git
